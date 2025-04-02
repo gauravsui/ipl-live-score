@@ -1,15 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
     padding: 20px;
 }
 
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 h1 {
-    color: #ff4500;
+    color: #ffcc00;
+    font-size: 28px;
 }
 
 p {
     font-size: 18px;
+    color: #f0f0f0;
 }
